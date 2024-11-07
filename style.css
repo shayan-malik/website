@@ -1,0 +1,301 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.logo img{
+    width: 200px;
+}
+nav ul li{
+    display: inline-block;
+    color: white;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    padding-left: 20px;
+   
+}
+
+
+
+.banner img{
+    width: 100%;
+    
+}
+.sec1 {
+    display: flex;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+
+.left-col {
+    width: 65%;
+    padding-right: 150px;
+}
+
+.left-col p{
+    text-align: justify;
+}
+
+.rt-col {
+    width:35%;
+}
+
+.rt-col img {
+    width: 45%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.sec2{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.sec2 .left{
+    width: 65%;
+    padding-right: 250px;
+}
+.sec2 .left h1{
+    font-size: 25px;
+    color: yellow;
+    padding-bottom: 20px;
+}
+.sec2 .left h2{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.sec2 .right{
+    width: 35%;
+}
+.sec2 .right p{
+    font-size: 12px;
+    padding-top: 80px;
+    padding-right: 35px;
+}
+
+.sec3{
+    background-color: #bfc500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+
+.sec3 h1{
+    font-size: 20px;
+}
+button{
+    background-color: black;
+    color: #bfc500;
+    border-radius: 10px;
+    border-style: none;
+    width: 180px;
+    height: 80px;
+    font-size: 16px;
+}
+
+.sec4{
+    display: flex;
+    padding: 30px;
+    ;
+}
+.sec4 .left{
+    width: 65%;
+    padding-right: 100px;
+}
+.sec4 .right{
+    width: 35%;
+}
+.sec4 .right img{
+    width: 90%;
+    padding-left: 60px;
+}
+.sec4 .left p{
+    word-spacing: 5px;
+    line-height: 23px;
+    font-size: 16px;
+}
+
+span{
+    color: #bfc500;
+    text-decoration: underline;
+}
+.sec5 {
+    width: 75%;
+    line-height: 23px;
+    padding-top: 40px;
+}
+.sec5 h2{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.sec5 p{
+    padding-bottom: 60px;
+    word-spacing: 4px;
+}
+
+.sec6{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+.sec6 img{
+    width: 8%;
+    display: inline-block;
+}
+.sec6 p{
+    display: flex;
+}
+.sec7{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+.sec7 .p1{
+    width: 10%;
+}
+.sec7 .p2{
+    width: 10%;
+}
+.sec7 .p3{
+    width: 10%;
+}
+.sec7 .p4{
+    width: 10%;
+}
+.sec7 .p5{
+    width: 10%;
+}
+
+.sec8{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.sec8 .left{
+    width: 65%;
+}
+.sec8 .left h2{
+    font-size: 30px;
+}
+.sec8 .left p{
+    word-spacing: 4px;
+    line-height: 20px;
+}
+.sec8 .right{
+    width: 20%;
+    padding-bottom: 20px;
+    
+}
+
+.sec8 img{
+    width: 70%;
+}
+
+.sec9{
+    padding-top:50px;
+}
+.sec9 h2{
+    font-size: 30px;
+}
+.sec9 p{
+    padding-top: 20px;
+}
+.sec10{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.sec10 .items2{
+    width: 60%;
+}
+.sec10 h2{
+    line-height: 70px;
+    font-size: 20px;
+    color: #bfc500;
+}
+.sec10 p{
+    padding-left: 50px;
+    line-height: 30px;
+    text-decoration: line-through;
+    padding-right: 10px;
+}
+.items3 img{
+    width: 320px;
+    height: 350px;
+    background-color: #bfc500;
+    margin-left: 70px;
+}
+
+
+@media (max-width:576px) {
+
+    body {
+        margin: 0px 10px;
+    }
+
+    ul {
+        margin: 0px 0 20px;
+        padding: 0;
+    }
+
+    nav ul li a {
+        padding-left: 5px;
+    }
+
+    header , .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7, .sec8, .sec9, .sec10{
+        display: block;
+    }
+
+    .left-col , .rt-col , .sec2 .right , .sec4 .left , .sec4 .right , .sec4 .right img , .sec7 p , .sec8 .left{
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
+    .sec2 .left {
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .items3 img {
+        width: 100%;
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .sec6 img {
+        width: 18%;
+    }
+}
