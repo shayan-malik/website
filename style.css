@@ -36,7 +36,9 @@ nav ul li a{
     padding-left: 20px;
    
 }
-
+nav ul li a:hover{
+    color: #bfc500;
+}
 
 
 .banner img{
