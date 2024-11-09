@@ -270,48 +270,6 @@ span{
 }
 
 
-@media (max-width:576px) {
-
-    body {
-        margin: 0px 10px;
-    }
-
-    ul {
-        margin: 0px 0 20px;
-        padding: 0;
-    }
-
-    nav ul li a {
-        padding-left: 5px;
-    }
-
-    header , .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7, .sec8, .sec9, .sec10{
-        display: block;
-    }
-
-    .left-col , .rt-col , .sec2 .right , .sec4 .left , .sec4 .right , .sec4 .right img , .sec7 p , .sec8 .left{
-        width: 100% !important;
-        padding: 0px !important;
-    }
-
-    .sec2 .left {
-        padding: 0px;
-        width: 100%;
-    }
-    
-    .items3 img {
-        width: 100%;
-        max-width: 100%;
-        margin: 0px;
-    }
-
-    .sec6 img {
-        width: 18%;
-    }
-}
-
-
-
 /* // Screen Size 1400px check */
 @media (max-width: 1660px) {
 
@@ -518,12 +476,46 @@ span{
 
 /* // Screen Size All mobile check */
 @media (max-width: 575px) {
+
     body {
-        margin-left: 25px;
-        margin-right: 25px;
+        margin: 0px 25px;
     }
+
+    ul {
+        margin: 0px 0 20px;
+        padding: 0;
+    }
+
+    nav ul li a {
+        padding-left: 5px;
+    }
+
+    .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7, .sec8, .sec9, .sec10{
+        display: block;
+    }
+
+    .left-col , .rt-col , .sec2 .right , .sec4 .left , .sec4 .right , .sec4 .right img , .sec7 p , .sec8 .left{
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
+    .sec2 .left {
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .items3 img {
+        width: 100%;
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .sec6 img {
+        width: 18%;
+    }
+
     .logo img {
-        width: 110px;
+        width: 80px;
     }
     nav ul {
         margin: 0px 0 12px;
@@ -533,7 +525,7 @@ span{
         padding-top: 5px;
     }
     nav ul li a {
-        font-size: 4px;
+        font-size: 6px;
     }
     .sec1.left-col h1{
         font-size: 23px;
@@ -544,7 +536,6 @@ span{
     }
     .sec2 .left {
         width: 100%;
-        padding-right: 90px;
     }
     .sec2 .left h1 {
         font-size: 35px;
@@ -583,9 +574,6 @@ span{
     .sec5 p {
         padding-bottom: 5px;
         word-spacing: 1px;
-    }
-    .sec6 img {
-        width: 17%;
     }
     .sec7 {
         padding-bottom: 15px;
@@ -631,6 +619,10 @@ span{
         margin-left: 20px;
         margin-top: -214%;
     }
+
+    .items2 p.we-pay {
+        visibility: hidden;
+    }
     .sec10 p {
         padding-top: 24px;
         line-height: 16px;
@@ -645,4 +637,9 @@ span{
    
 
 
+}
+
+@media (max-width:576px) {
+
+    
 }
