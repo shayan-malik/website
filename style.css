@@ -1,3 +1,4 @@
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0px;
 }
@@ -245,29 +246,19 @@ span{
 }
 .sec10{
     display: flex;
+}
+.sec10 span{
+    display: block;
+    font-weight: bold;
+    padding-top: 40px;
     padding-left: 20px;
-    padding-top: 30px;
 }
-.sec10 .items2{
-    width: 60%;
-}
-.sec10 h2{
-    line-height: 70px;
-    font-size: 20px;
-    color: #bfc500;
-}
-.sec10 p{
-    padding-left: 50px;
-    line-height: 30px;
+.sec10 ul li{
+    list-style: none;
     text-decoration: line-through;
-    padding-right: 10px;
+    padding-bottom: 12px;
 }
-.items3 img{
-    width: 320px;
-    height: 350px;
-    background-color: #bfc500;
-    margin-left: 70px;
-}
+
 
 
 /* // Screen Size 1400px check */
