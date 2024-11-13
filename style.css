@@ -129,9 +129,10 @@ button{
     color: #bfc500;
     text-decoration: none;
 }
-.sec3 button a:hover{
-    color: white;
+.sec3 button:hover{
+    background-color: white;
 }
+
 
 .sec4{
     display: flex;
@@ -264,6 +265,7 @@ span{
     width: 100%;
     background-color: #bfc500;
     height: 350px;
+    margin-top: 40px;
 
 }
 
@@ -485,10 +487,12 @@ span{
     ul {
         margin: 0px 0 20px;
         padding: 0;
+        font-size: 20px;
     }
 
     nav ul li a {
         padding-left: 5px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7, .sec8, .sec9, .sec10{
@@ -531,8 +535,8 @@ span{
     .sec1.left-col h1{
         font-size: 23px;
     }
-    .sec1.rt-col{
-        margin-left: 26px;
+    .sec1 .rt-col{
+        margin-left: 50px;
         margin-top: 30px;
     }
     .sec2 .left {
@@ -555,7 +559,7 @@ span{
         padding-right: 5px;
     }
     button{
-        margin-top: -84px;
+        margin-top: -64px;
     }
     .sec4 .left p {
         word-spacing: 3px;
@@ -597,44 +601,7 @@ span{
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .sec9 {
-        padding-top: 30px;
-    }
-    .sec9 h2 {
-        font-size: 25px;
-    }
-    .sec9 p {
-        padding-top: 8px;
-        font-size: 14px;
-    }
-    .sec10 {
-        padding-left: 10px;
-        padding-top: 0px;
-    }
-    .sec10 h2 {
-        line-height: 91px;
-        padding-bottom: 0px;
-    }
-    .sec10 .items2 {
-        width: 100%;
-        margin-left: 20px;
-        margin-top: -214%;
-    }
-
-    .items2 p.we-pay {
-        visibility: hidden;
-    }
-    .sec10 p {
-        padding-top: 24px;
-        line-height: 16px;
-        font-size: 15px;
-    }
-    .items3 img {
-        margin-top: 30px;
-        width: 300px;
-        height: 320px;
-        margin-left: 0px;
-    }
+    
    
 
 
