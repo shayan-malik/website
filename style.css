@@ -245,27 +245,26 @@ span{
 }
 .sec10{
     display: flex;
+    justify-content: space-around;
 }
 .sec10 span{
     display: block;
-    font-weight: bold;
+    font-weight: 800;
     padding-top: 50px;
-    padding-left: 20px;
     text-decoration: none;
 }
 .sec10 ul li{
     list-style: none;
     text-decoration: line-through;
-    padding-top: 35px;
+    padding-top: 40px;
 }
-.items3{
-    background-color: #bfc500;
-    margin-top: 30px;
-    margin-left: 50px;
-}
+
+
 .items3 img{
-    width: 450px;
-    height: 400px;
+    width: 100%;
+    background-color: #bfc500;
+    height: 350px;
+
 }
 
 
