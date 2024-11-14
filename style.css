@@ -281,13 +281,32 @@ span{
 
 /* // Screen Size 1200px check */
 @media (max-width: 1399px) {
+    .sec10 ul li {
+        padding-top: 34px;
+    }
+    .sec10 .items2{
+        width: 62%;
+    }
+    .sec10 ul li {
+        padding-top: 29px;
+        padding-right: 40px;
+    }
    
 }
 
 /* // Screen Size 992px check */
 @media (max-width: 1199px) {
+    .sec1 .left-col h1 br{
+        display: none;
+    }
+    .sec1 .left-col h1{
+        font-size: 28px;
+    }
+    .rt-col {
+        width: 46%;
+    }
     .rt-col img{
-        width: 39%;
+        width: 45%;
     }
     .sec2 .right{
         width: 40%;
@@ -295,6 +314,17 @@ span{
     .sec2 .right p{
         padding-top: 45px;
         padding-right: 35px;
+    }
+    .sec4 .right {
+        width: 40%;
+    }
+    .sec4 .right img {
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 55px;
+    }
+    .sec8 .right {
+        width: 26%;
     }
     .sec10 h2{
         line-height: 110px;
@@ -305,8 +335,13 @@ span{
     }
     .items3 img{
         margin-top: 40px;
-        width: 308px;
-        height: 440px;
+        width: 270px;
+        height: 348px;
+        margin-left: 20px;
+    }
+    .sec10 ul li {
+        padding-top: 21px;
+        padding-right: 30px;
     }
 
 
@@ -314,293 +349,299 @@ span{
 
 /* // Screen Size 768px check */
 @media (max-width: 991px) {
-    body{      
-    margin-left: 50px;
-    margin-right: 50px;
+    body {
+        margin-left: 60px;
+        margin-right: 60px;
     }
-    nav ul li a{
-        font-size: 11px;
+    nav ul li {
+        font-size: 20px;
     }
-    .sec1.left-col h1{
-        font-size: 25px;
+    .left-col {
+        width: 50%;
+        padding-right: 60px;
+        padding-top: 20px;
     }
-    .sec1.left-col{
-        padding-right: 39px;
+    .sec1 .left-col h1 {
+        font-size: 23px;
     }
-    .sec1.rt-col{
-        width: 43%;
+    .sec1 .left-col h1 br{
+        display: none;
     }
-    .sec2 .left {
-        width: 51%;
-        padding-right: 90px;
+    .rt-col {
+        width: 46%;
+        padding-top: 20px;
     }
-    .sec2 .right p{
-        padding-top: 55px;
-        font-size: 10px;
-        padding-right: 5px;
+    .rt-col img {
+        width: 45%;
     }
     .sec3{
         padding-left: 25px;
         padding-right: 25px;
     }
-    .sec3 h1{
-        font-size: 16px;
+    .sec3 h1 {
+        font-size: 14px;
         font-weight: 800;
     }
     .sec4 .left {
         width: 50%;
-        padding-right: 80px;
+        padding-right: 50px;
+    }
+    .sec4 .left p {
+        word-spacing: 4px;
+        line-height: 22px;
+        font-size: 14px;
     }
     .sec4 .right {
-        width: 78%;
-        padding-top: 65px;
-        padding-right: 30px;
-    }
-    .sec7{
-        padding-bottom: 45px;
-    }
-    .sec7 .p3 {
-        width: 11%;
+        width: 42%;
     }
     .sec8 .left {
-        width: 44%;
+        width: 50%;
+    }
+    .sec8 .left p {
+        word-spacing: 3px;
+        line-height: 20px;
     }
     .sec8 .right {
-        width: 40%;
+        width: 32%;
     }
-    .sec9 p{
-        font-size: 13px;
+    .sec8 img {
+        width: 100%;
     }
-    .sec10 h2 {
-        line-height: 144px;
+    .sec10{
+        display: block;
+    }
+    .sec10 .items1{
+        width: 10%;
+        float: left;
+    }
+    .sec10 span {
+        display: block;
+        font-weight: 800;
+        padding-top: 52px;
+        text-decoration: none;
     }
     .sec10 .items2 {
-        width: 35%;
+        width: 90%;
+        float: right;
     }
-    .sec10 p {
-        padding-top: 21px;
-        line-height: 21px;
+    .sec10 ul li {
+        padding-top: 31px;
+        padding-right: 30px;
     }
-
+    .items3{
+        text-align: center;
+    }
+    .items3 img{
+        max-width: 100%;
+        margin-left: 0px;
+    }
 }
+    
+
+   
+
+
 
 /* // Screen Size 576px check */
 @media (max-width: 767px) {
+    body {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
     .logo img {
-        width: 150px;
+        width: 160px;
     }
-    header{
-        display: flex;
-    }
-    nav ul li{
-        padding-top: 15px;
-    }
-
-    nav ul li a {
-        font-size: 10px;
-    }
-    .sec1.left-col h1{
+    nav ul li {
         font-size: 17px;
     }
-    .sec1.left-col p{
-        font-size: 11px;
+    .sec1{
+        display: block;
     }
-    .sec1.rt-col img {
-        width: 36%;
+    .sec1 .left-col{
+            width: 100%;
+            padding-right: 0px;
+            padding-top: 20px;
+    }
+    .sec1 .left-col h1 {
+        font-size: 27px;
+    }
+    .rt-col {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .sec2 .left {
+        width: 70%;
+        padding-right: 0px;
+    }
+    .sec2 .right {
+        width: 30%;
+    }
+    .sec2 .right p {
+        padding-top: 70px;
+        padding-right: 0px;
+        font-size: 11px;
+        padding-left: 5px;
+    }
+    .sec3 {
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .sec3 h1 {
-        font-size: 14px;
-        font-weight: 800;
-        padding-top: 10px;
+        font-size: 15px;
     }
-    .sec3 p{
-        width: 42%;
-        font-size: 10px;
+    .sec3 p {
+        font-size: 14px;
+        width: 75%;
+        padding-left: 10px;
     }
     button {
-        float: right;
         background-color: black;
         color: #bfc500;
         border-radius: 10px;
         border-style: none;
-        width: 112px;
-        height: 60px;
-        font-size: 10px;
-        margin-top: -63px;
+        width: 137px;
+        height: 62px;
+        font-size: 12px;
     }
-    .sec5 h2 {
-        padding-bottom: 20px;
-        font-size: 29px;
+    .sec4{
+        display: block;
+        padding: 0px;
+    }
+    .sec4 .left {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .sec4 .right {
+        width: 100%;
+        padding-top: 15px;
+    }
+    .sec4 .right img {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .sec5{
+        width: 100%;
     }
     .sec5 p {
-        padding-bottom: 20px;
-        word-spacing: 2px;
+        padding-bottom: 30px;
     }
     .sec6 img {
-        width: 18%;
+        width: 10%;
+        display: inline-block;
     }
-    .sec8 .left h2 {
-        font-size: 26px;
+    .sec7 {
+        display: flex;
+        justify-content: space-around;
+        font-size: 6px;
+        padding-left: 0px;
+        padding-bottom: 25px;
+    }
+    .sec8{
+        display: block;
     }
     .sec8 .left {
-        width: 100% !important;
-        padding: 0px !important;
-    }
-    .sec8 .left p {
-        word-spacing: 4px;
-        line-height: 20px;
+        width: 100%;
     }
     .sec8 .right {
-        width: 50%;
-        padding-left: 160px;
+        width: 40%;
         padding-top: 20px;
-        padding-bottom: 20px;
+        margin: auto;
     }
-    .sec10 .items2 {
-        width: 90%;
-        margin-left: 20px;
-        margin-top: -215%;
+    .sec10 .items2 ul .none{
+        display: none;
     }
-    .items3 img {
-        margin-top: 40px;
-        width: 330px;
-        height: 350px;
-        margin-left: 58px;
+    .sec10 span {
+        display: block;
+        font-weight: 800;
+        padding-top: 56px;
+        text-decoration: none;
     }
-    .sec10 p {
-        padding-top: 21px;
-        line-height: 42px;
+    .sec10 ul li {
+        padding-top: 35px;
+        padding-right: 30px;
     }
-    .sec10 h2 {
-        line-height: 143px;
-        padding-bottom: 0px;
-    }
+    
+    
 }
 
 /* // Screen Size All mobile check */
 @media (max-width: 575px) {
-
     body {
-        margin: 0px 25px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
-
-    ul {
-        margin: 0px 0 20px;
-        padding: 0;
-        font-size: 20px;
-    }
-
-    nav ul li a {
-        padding-left: 5px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7, .sec8, .sec9, .sec10{
+    header{
         display: block;
     }
-
-    .left-col , .rt-col , .sec2 .right , .sec4 .left , .sec4 .right , .sec4 .right img , .sec7 p , .sec8 .left{
-        width: 100% !important;
-        padding: 0px !important;
-    }
-
-    .sec2 .left {
-        padding: 0px;
-        width: 100%;
+    .logo img {
+        width: 60%;
     }
     
-    .items3 img {
-        width: 100%;
-        max-width: 100%;
-        margin: 0px;
-    }
-
-    .sec6 img {
-        width: 18%;
-    }
-
-    .logo img {
-        width: 80px;
-    }
-    nav ul {
-        margin: 0px 0 12px;
-        padding: 0;
+    nav {
+        padding-bottom: 20px;
     }
     nav ul li {
-        padding-top: 5px;
+        font-size: 14px;
     }
     nav ul li a {
-        font-size: 6px;
+        padding-left: 0;
+        padding-right: 20px;
     }
-    .sec1.left-col h1{
-        font-size: 23px;
-    }
-    .sec1 .rt-col{
-        margin-left: 50px;
-        margin-top: 30px;
+    .sec1 .left-col h1 {
+        font-size: 22px;
     }
     .sec2 .left {
-        width: 100%;
+        width: 60%;
+        padding-right: 12px;
     }
-    .sec2 .left h1 {
-        font-size: 35px;
-        padding-bottom: 20px;
+    .sec2 .right {
+        width: 40%;
     }
-    .sec2 .left h2 {
+    .sec3 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .sec3 h1 {
         font-size: 13px;
-        padding-bottom: 0px;
     }
-    .sec2 .left p{
-        font-size: 19px;
+    .sec3 p {
+        font-size: 12px;
+        width: 69%;
+        padding-left: 10px;
     }
-    .sec2 .right p {
+    button {
+        background-color: black;
+        color: #bfc500;
+        border-radius: 10px;
+        border-style: none;
+        width: 135px;
+        height: 48px;
+        font-size: 11px;
+    }
+    .sec4 .left h2{
         padding-top: 5px;
-        font-size: 9px;
-        padding-right: 5px;
-    }
-    button{
-        margin-top: -64px;
-    }
-    .sec4 .left p {
-        word-spacing: 3px;
-        line-height: 19px;
-        font-size: 14px;
-        padding-bottom: 10px;
-    }
-    .sec5 {
-        width: 100%;
-        line-height: 23px;
-        padding-top: 30px;
     }
     .sec5 h2 {
-        padding-bottom: 10px;
-        font-size: 25px;
-    }
-    .sec5 p {
-        padding-bottom: 5px;
-        word-spacing: 1px;
-    }
-    .sec7 {
-        padding-bottom: 15px;
-    }
-    .sec8 {
-        padding-top: 25px;
-    }
-    .sec8 .left h2 {
-        font-size: 28px;
-    }
-    .sec8 .left p {
-        word-spacing: 2px;
-        line-height: 21px;
-        font-size: 15px;
-        text-align: justify;
-    }
-    .sec8 .right {
-        width: 70%;
-        padding-left: 88px;
-        padding-top: 20px;
         padding-bottom: 20px;
+        font-size: 24px;
     }
+    .sec10 ul li {
+        padding-top: 24px;
+        padding-right: 0px;
+    }
+    .sec10 .items1 {
+        width: 10%;
+        float: left;
+        margin-top: -27px;
+    }
+    .sec10 span {
+        display: block;
+        font-weight: 800;
+        padding-top: 68px;
+        text-decoration: none;
+    }
+
     
    
 
